@@ -10,15 +10,16 @@ environment:
 dependencies:
   bip39: ^1.0.6
   bip32: ^2.0.0
-  flutter_bitcoin: ^1.0.1
   json_serializable: ^6.7.1
   json_annotation: ^4.8.1
+  ed25519_hd_key: ^2.2.1
   build_runner: ^2.4.6
   http: ^1.1.0
   hex: ^0.2.0
   web3dart: ^2.7.2
-  # path: ^1.8.0
+  path: ^1.8.0
 
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.21.0
+  web3dart_builders: ^0.0.7

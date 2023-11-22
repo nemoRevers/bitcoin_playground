@@ -33,14 +33,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
-  bech32:
-    dependency: transitive
-    description:
-      name: bech32
-      sha256: "156cbace936f7720c79a79d16a03efad343b1ef17106716e04b8b8e39f99f7f7"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.2"
   bip32:
     dependency: "direct main"
     description:
@@ -193,6 +185,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.3"
+  ed25519_hd_key:
+    dependency: "direct main"
+    description:
+      name: ed25519_hd_key
+      sha256: c5c9f11a03f5789bf9dcd9ae88d641571c802640851f1cacdb13123f171b3a26
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.1"
   eip1559:
     dependency: transitive
     description:
@@ -225,14 +225,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
-  flutter_bitcoin:
-    dependency: "direct main"
-    description:
-      name: flutter_bitcoin
-      sha256: "1a783c4d80f83b1ba5dedb4f18ebf522c90dd99e6fa0224b5228f68aa29b3442"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.1"
   frontend_server_client:
     dependency: transitive
     description:
@@ -386,13 +378,21 @@ packages:
     source: hosted
     version: "2.1.0"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       sha256: "8829d8a55c13fc0e37127c29fedf290c102f4e40ae94ada574091fe0ff96c917"
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
+  pinenacl:
+    dependency: transitive
+    description:
+      name: pinenacl
+      sha256: "3a5503637587d635647c93ea9a8fecf48a420cc7deebe6f1fc85c2a5637ab327"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.1"
   pointycastle:
     dependency: transitive
     description:
@@ -633,6 +633,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.7.2"
+  web3dart_builders:
+    dependency: "direct dev"
+    description:
+      name: web3dart_builders
+      sha256: "19593770eb7a45a72087c7e3a0e1185ff58cc8827a68114eef6ed265e2ee9b54"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.7"
   web_socket_channel:
     dependency: transitive
     description:
